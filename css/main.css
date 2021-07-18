@@ -26,7 +26,7 @@ header nav .nav-right-section{
 }
 nav .nav-right-section a{
     margin-right: 10px;
-    color: black;
+    color: #000000;
 }
 nav .nav-right-section .menu-icon{
     background-image: url(https://static.thenounproject.com/png/756729-200.png);
@@ -51,4 +51,25 @@ main .main-logo {
 }
 main .main-logo img{
     width: 300px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
 }
